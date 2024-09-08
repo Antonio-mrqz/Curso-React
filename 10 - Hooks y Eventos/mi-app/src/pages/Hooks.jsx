@@ -9,7 +9,31 @@ const Hooks = () => {
             <Link to="/hooks/evento-click">Evento Click</Link>
         </li>
         <li>
-            <Link to="/hooks/usestate">UseState</Link>
+            <Link to="/hooks/use-state">UseState</Link>
+        </li>
+        <li>
+            <Link to="/hooks/onchange">OnChange</Link>
+        </li>
+        <li>
+            <Link to="/hooks/eventos-varios">Eventos Varios</Link>
+        </li>
+        <li>
+            <Link to="/hooks/use-effect">UseEffect</Link>
+        </li>
+        <li>
+            <Link to="/hooks/custom-hooks">Custom Hooks</Link>
+        </li>
+        <li>
+            <Link to="/hooks/use-loader-data">UseLoaderData</Link>
+        </li>
+        <li>
+            <Link to="/hooks/use-navigate">UseNavigate</Link>
+        </li>
+        <li>
+            <Link to="/hooks/use-location">UseLocation</Link>
+        </li>
+        <li>
+            <Link to="/hooks/use-ref">UseRef</Link>
         </li>
     </ul>
     </>

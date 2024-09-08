@@ -17,6 +17,14 @@ import Error404 from "./pages/Error404.jsx";
 import Hooks from "./pages/Hooks.jsx";
 import EventoClick from "./pages/EventoClick.jsx";
 import UseState from "./pages/UseState.jsx";
+import OnChange from "./pages/OnChange.jsx";
+import EventosVarios from "./pages/EventosVarios.jsx";
+import UseEffect from "./pages/UseEffect.jsx";
+import CustomHooks from "./pages/CustomHooks.jsx";
+import UseLoaderData, { loader as paisesLoader} from "./pages/UseLoaderData.jsx";
+import UseNavigate from "./pages/UseNavigate.jsx";
+import UseLocation from "./pages/UseLocation.jsx";
+import UseRef from "./pages/UseRef.jsx";
 
 const router = createBrowserRouter([
   {
@@ -53,8 +61,41 @@ const router = createBrowserRouter([
         element: <EventoClick/>,
       },
       {
-        path: "/hooks/usestate",
+        path: "/hooks/use-state",
         element: <UseState/>,
+      },
+      {
+        path: "/hooks/onchange",
+        element: <OnChange/>,
+      },
+      {
+        path: "/hooks/eventos-varios",
+        element: <EventosVarios/>,
+      },
+      {
+        path: "/hooks/use-effect",
+        element: <UseEffect/>,
+      },
+      {
+        path: "/hooks/custom-hooks",
+        element: <CustomHooks />,
+      },
+      {
+        path: "/hooks/use-loader-data",
+        element: <UseLoaderData />,
+        loader: paisesLoader,
+      },
+      {
+        path: "/hooks/use-navigate",
+        element: <UseNavigate />,
+      },
+      {
+        path: "/hooks/use-location",
+        element: <UseLocation />,
+      },
+      {
+        path: "/hooks/use-ref",
+        element: <UseRef />,
       },
       {
         path: "*",

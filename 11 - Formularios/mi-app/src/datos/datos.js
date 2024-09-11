@@ -67,7 +67,58 @@ const paises = [
     dominio: "ar"
   },
 ]
+const categorias_productos = [
+  {
+    id: 1,
+    nombre: "Muebles"
+  },
+  {
+    id: 2,
+    nombre: "Lácteos"
+  },
+  {
+    id: 3,
+    nombre: "Vegetales"
+  },
+  {
+    id: 4,
+    nombre: "Carnes"
+  },
+  {
+    id: 5,
+    nombre: "Licores"
+  },
+  {
+    id: 6,
+    nombre: "Perfumeria"
+  }
+];
+
+const atributos = [
+  {
+    id: 1,
+    nombre: "Montable"
+  },
+  {
+    id: 2,
+    nombre: "Perecible"
+  },
+  {
+    id: 3,
+    nombre: "Fragil"
+  },
+  {
+    id: 4,
+    nombre: "Multiuso"
+  },
+  {
+    id: 5,
+    nombre: "Edicion Limitada"
+  }
+];
 
 export { productos };
 export { categorias };
 export {paises};
+export { atributos };
+export { categorias_productos };

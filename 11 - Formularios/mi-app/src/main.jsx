@@ -27,6 +27,7 @@ import UseLocation from "./pages/UseLocation.jsx";
 import UseRef from "./pages/UseRef.jsx";
 import Formularios from "./pages/Formularios.jsx";
 import FormularioSimple from "./pages/FormularioSimple.jsx";
+import FormularioUseActionData, {action as procesarFormularioActionData} from "./pages/FormularioUseActionData.jsx";
 
 const router = createBrowserRouter([
   {
@@ -106,6 +107,11 @@ const router = createBrowserRouter([
       {
         path: "/formularios/formulario-simple",
         element: <FormularioSimple />,
+      },
+      {
+        path: "/formularios/formulario-use-action-data",
+        element: <FormularioUseActionData />,
+        action: procesarFormularioActionData
       },
       {
         path: "*",

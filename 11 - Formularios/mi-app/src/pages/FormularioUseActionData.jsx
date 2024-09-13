@@ -54,6 +54,19 @@ const FormularioUseActionData = () => {
         setPeligroso(!peligroso);
     }
     const errores = useActionData();
+
+    //validacion asincrona
+    const [name, setName] = useState();
+    async function handleBlur(name) {
+        if(name == "Antonio.mrqz_"){
+            Swal.fire({
+                icon: "error",
+                title: "Ups...",
+                text: "El nombre ingresado no esta disponible"
+            });
+            setName("");
+        }
+    }
   return (
     <>
     <nav aria-label='breadcrumb'>
@@ -86,7 +99,7 @@ const FormularioUseActionData = () => {
 
         <div className="form-group">
             <label htmlFor="nombre">Nombre</label>
-            <input type="text" name="nombre" className="form-control" id="nombre" placeholder="Nombre" />
+            <input type="text" name="nombre" className="form-control" id="nombre" placeholder="Nombre" value={name} onChange={(e)=>{setName(e.target.value)}} onBlur={(e)=>{handleBlur(e.target.value)}}/>
         </div>
 
         <div className="form-group">

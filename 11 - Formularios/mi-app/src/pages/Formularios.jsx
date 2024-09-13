@@ -10,6 +10,12 @@ const Formularios = () => {
         </li>
         <li>
             <Link to="/formularios/formulario-use-action-data">Formulario UseActionData</Link>
+        </li>
+        <li>
+            <Link to="/formularios/formulario-formik">Formulario Formik</Link>
+        </li>
+        <li>
+            <Link to="/formularios/formulario-reacthookform">Formulario ReactHookForm</Link>
         </li> 
     </ul>
     </>

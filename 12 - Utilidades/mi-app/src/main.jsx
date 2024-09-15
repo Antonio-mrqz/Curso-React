@@ -33,6 +33,14 @@ import FormulariosReactHookForm from "./pages/FormulariosReactHookForm.jsx";
 import Utiles from "./pages/Utiles.jsx";
 import DayJS from "./pages/DayJS.jsx";
 import Momentjs from "./pages/Momentjs.jsx";
+import Spinner from "./pages/Spinner.jsx";
+import Swipeable from "./pages/Swipeable.jsx";
+import Webcam from "./pages/Webcam.jsx";
+import Graficos from "./pages/Graficos.jsx";
+import Mapas1 from "./pages/Mapas1.jsx";
+import { Modal } from "bootstrap";
+import UtilesModal from "./pages/UtilesModal.jsx";
+import Carrusel from "./pages/Carrusel.jsx";
 
 const router = createBrowserRouter([
   {
@@ -137,6 +145,34 @@ const router = createBrowserRouter([
       {
         path: "/utiles/momentjs",
         element: <Momentjs />,
+      },
+      {
+        path: "/utiles/spinner",
+        element: <Spinner />,
+      },
+      {
+        path: "/utiles/swipeable",
+        element: <Swipeable />,
+      },
+      {
+        path: "/utiles/webcam",
+        element: <Webcam />,
+      },
+      {
+        path: "/utiles/graficos",
+        element: <Graficos />,
+      },
+      {
+        path: "/utiles/mapas-clasicos",
+        element: <Mapas1 />,
+      },
+      {
+        path: "/utiles/modal",
+        element: <UtilesModal />,
+      },
+      {
+        path: "/utiles/carrusel",
+        element: <Carrusel />,
       },
       {
         path: "*",

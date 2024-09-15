@@ -116,9 +116,40 @@ const atributos = [
     nombre: "Edicion Limitada"
   }
 ];
+const imagenes = [{
+  id: 1,
+  titulo: "JavaScript",
+  nombre: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Random_Image.png'
+},
+{
+  id: 2,
+  titulo: "C++",
+  nombre: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.profesionalonline.com%2Fblog%2Fprogramacion%2Fmejores-lenguajes-de-programacion-para-este-ano-2022%2F&psig=AOvVaw2tImiVME8_E3Ul4ExL9Umr&ust=1726504337745000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCPDR5oKwxYgDFQAAAAAdAAAAABAJ'
+},
+{
+  id: 3,
+  nombre: 'https://www.cesarcancino.com/asset/images/springb750x422.jpg'
+},
+{
+  id: 4,
+  titulo: "Curso FastAPI",
+  nombre: 'https://www.cesarcancino.com/asset/images/sticker-fastapi-tamila2.png'
+},
+{
+  id: 5,
+  titulo: "Curso Node",
+  nombre: 'https://www.cesarcancino.com/asset/images/node-750x422%20(1).jpg'
+},
+{
+  id: 6,
+  titulo:"Curso Angular",
+  nombre: 'https://www.cesarcancino.com/asset/images/angular750x422.jpg'
+}
+];
 
 export { productos };
 export { categorias };
 export {paises};
 export { atributos };
 export { categorias_productos };
+export { imagenes };

@@ -119,7 +119,7 @@ const atributos = [
 const imagenes = [{
   id: 1,
   titulo: "JavaScript",
-  nombre: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Random_Image.png'
+  nombre: '/images/JS.jpg'
 },
 {
   id: 2,
@@ -143,7 +143,7 @@ const imagenes = [{
 {
   id: 6,
   titulo:"Curso Angular",
-  nombre: 'https://www.cesarcancino.com/asset/images/angular750x422.jpg'
+  nombre: '/images/Angular.png'
 }
 ];
 

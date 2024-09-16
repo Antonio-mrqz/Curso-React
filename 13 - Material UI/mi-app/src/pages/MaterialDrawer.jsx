@@ -89,7 +89,7 @@ const MaterialDrawer = () => {
           </nav>
           <h1>Drawer</h1>
           <div>
-            <Button onClick={toggleDrawer('left', true)}>Abrir</Button>
+            <Button variant="contained" onClick={toggleDrawer('left', true)}>Abrir</Button>
           
             <Drawer
                   anchor='left'

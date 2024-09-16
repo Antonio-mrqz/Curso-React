@@ -45,6 +45,14 @@ import Material from "./pages/Material.jsx";
 import MaterialBotones from "./pages/MaterialBotones.jsx";
 import MaterialList from "./pages/MaterialList.jsx";
 import MaterialDrawer from "./pages/MaterialDrawer.jsx";
+import MaterialTable from "./pages/MaterialTable.jsx";
+import MaterialAccordion from "./pages/MaterialAccordion.jsx";
+import MaterialStepper from "./pages/MaterialStepper.jsx";
+import MaterialTabs from "./pages/MaterialTabs.jsx";
+import MaterialDialog from "./pages/MaterialDialog.jsx";
+import MaterialCard from "./pages/MaterialCard.jsx";
+import MaterialAutocomplete from "./pages/MaterialAutocomplete.jsx";
+import MaterialDatePicker from "./pages/MaterialDatePicker.jsx";
 
 const router = createBrowserRouter([
   {
@@ -193,6 +201,38 @@ const router = createBrowserRouter([
       {
         path: "/material/drawer",
         element: <MaterialDrawer />,
+      },
+      {
+        path: "/material/table",
+        element: <MaterialTable/>,
+      },
+      {
+        path: "/material/accordion",
+        element: <MaterialAccordion/>,
+      },
+      {
+        path: "/material/stepper",
+        element: <MaterialStepper/>,
+      },
+      {
+        path: "/material/tabs",
+        element: <MaterialTabs/>,
+      },
+      {
+        path: "/material/dialog",
+        element: <MaterialDialog/>,
+      },
+      {
+        path: "/material/card",
+        element: <MaterialCard/>,
+      },
+      {
+        path: "/material/autocomplete",
+        element: <MaterialAutocomplete/>,
+      },
+      {
+        path: "/material/datepicker",
+        element: <MaterialDatePicker/>,
       },
       {
         path: "*",

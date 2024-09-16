@@ -25,10 +25,10 @@ const Carrusel = () => {
         {imagenes.map((imagen)=>(
             <Carousel.Item key={imagen.id}>
                 <img className="d-block w-100 h-100" src={imagen.nombre} alt={imagen.titulo} />
-                 <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
+                <Carousel.Caption>
+                  <h3>Second slide label</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </Carousel.Caption>
             </Carousel.Item>
         ))}
          
